@@ -1,3 +1,5 @@
+import time
+
 def fill(array, position):
     array[position] += 1
 
@@ -7,3 +9,4 @@ while True:
     for i in range(len(array_to_fill)):
         fill(array_to_fill, i)
         print array_to_fill
+        time.sleep(1)

@@ -1,4 +1,5 @@
 import thread
+import time
 
 def fill(array, position):
     while True:
@@ -11,3 +12,4 @@ for i in range(len(array_to_fill)):
 
 while True:
     print array_to_fill
+    time.sleep(1)
